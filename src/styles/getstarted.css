@@ -1,13 +1,15 @@
 .getstartedd{
     background-color:white;
     width: 100vw;
-    height: 90vh;
+    height: 120vh;
     text-transform: capitalize;
+    overflow-y: hidden;
 }
 .getstartedd_div{
     background-color: #FBF8FD;
     width: 35vw;
-    height: 80vh;
+    height: 100vh;
+    overflow-y: hidden;
     margin: 2% auto;
     box-shadow: 1px 1px 4px;
     padding-top: 3vh;

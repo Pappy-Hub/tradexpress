@@ -3,7 +3,10 @@ import './App.css';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import Getstarted from './pages/Getstarted';
-import Getstartedtwo from './pages/Getstartedtwo';
+import Login from './pages/Login';
+import Trade from './pages/Trade';
+import AlmostThere from './pages/AlmostThere';
+import Dashboard from './pages/Dashboard';
 import {BrowserRouter as Router, Switch} from 'react-router-dom';
 
 function App() {
@@ -42,10 +45,17 @@ function App() {
           <Router exact path="/getstarted">
             <Getstarted />
           </Router>
-        </Switch>
-        <Switch>
-          <Router exact path="/getstartedtwo">
-            <Getstartedtwo />
+          <Router exact path="/trade">
+            <Trade/>
+          </Router>
+          <Router exact path="/login">
+            <Login/>
+          </Router>
+          <Router exact path="/almostthere">
+            <AlmostThere/>
+          </Router>
+          <Router exact path="/dashboard">
+            <Dashboard my_data={data}/>
           </Router>
         </Switch>
       </div>

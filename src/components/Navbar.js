@@ -11,7 +11,7 @@ const Navbar = () => {
             <Link to='/'><img src={trad}/></Link>
             <div className='navy'>
                 <Link to='/Trade'><span className='instant'>Instant Buy/Sell</span></Link>
-                <span>Learn</span>
+                <Link to='/dashboard'><span className='dashboard'>Dashboard</span></Link>
                 <Link to='/Login'><button className='login'>Log in</button></Link>
                 <Link to='/Getstarted'><button className='getstarted'>Get Started</button></Link>
             </div>

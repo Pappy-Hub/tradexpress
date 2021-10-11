@@ -94,5 +94,8 @@ header > button{
     .appstore, .googleplay{
         width: 30vw;
     }
+    .download{
+        display: none;
+    }
  }
 @media (max-width:375px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
