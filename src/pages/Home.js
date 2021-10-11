@@ -59,12 +59,12 @@ const Home = (props) => {
                             devices and follow our easy process to set up your profile.
                             </p>
                         </div>
-                        <img src={img3} className='sec_img'/>
+                        <img src={img1} className='sec_img'/>
                     </div>
                 
                 
                     <div className='second_section_divs'>
-                        <img src={img4} className='sec_img'/>
+                        <img src={img1} className='sec_img'/>
                         <div className='dbc'>
                             <h3>deposit</h3>
                             <p>
@@ -83,7 +83,7 @@ const Home = (props) => {
                             it in your wallet or send it easily to friends and family.
                             </p>
                         </div>
-                        <img  src={img5} className='sec_img size'/>
+                        <img  src={img2} className='sec_img size'/>
                     </div>
                 </div>
             </section>
