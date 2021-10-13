@@ -26,7 +26,7 @@ const Trade = () => {
         return (
             <section className='getstartedd'>
                 <div className='getstartedd_div'>
-                    <p>Buy/Sell Instatntly {state}</p>
+                    <p>Buy/Sell Instantly {state}</p>
                     <div className='busandind'>
                         <button className='individual' id='individual' onClick={rebounce}>Buy</button>
                         <button className='business' id='business' onClick={reboun}>Sell</button>

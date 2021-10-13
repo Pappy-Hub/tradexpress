@@ -91,6 +91,10 @@ header > button{
     .appstore{
         margin-left: 15vw;
     }
+    .span-appstore{
+        margin-top: 2.4vh;
+        margin-left: 2vw;
+    }
     .appstore, .googleplay{
         width: 30vw;
     }

@@ -80,11 +80,12 @@
         font-size: 16px;
     }
     .busandind{
-        width: 40vw;
+        width: 41vw;
+        height: 5vh;
     }
     .busandind > button{
         width: 20vw;
-        top: 0.1vh;
+        top: 0.3vh;
     }
     .getstartedform > input{
         width: 40vw;

@@ -37,10 +37,10 @@ const Navbar = () => {
             <div className='navymobile'>
                 <AiOutlineMenu onClick={flip}/>
                 <div className='mobile' id='mob'>
-                    <Link to='/Trade'><li className='' onClick={flipy}>Instant Buy/Sell</li></Link>
-                    <Link to='/dashboard'><li className='' onClick={flipy}>Dashboard</li></Link>
-                    <Link to='/Login'><li className='' onClick={flipy}>Log in</li></Link>
-                    <Link to='/Getstarted'><li className='' onClick={flipy}>Get Started</li></Link>
+                    <Link to='/Trade' className='ml'><li  onClick={flipy}>Instant Buy/Sell</li></Link>
+                    <Link to='/dashboard' className='ml'><li className='' onClick={flipy}>Dashboard</li></Link>
+                    <Link to='/Login' className='ml'><li className='' onClick={flipy}>Log in</li></Link>
+                    <Link to='/Getstarted' className='ml'><li className='' onClick={flipy}>Get Started</li></Link>
                 </div>
             </div>
         </nav>

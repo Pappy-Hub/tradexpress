@@ -11,13 +11,17 @@ import {BrowserRouter as Router, Switch} from 'react-router-dom';
 
 function App() {
   // usestate for that data
-  const [data, setData] = useState([])
+  const [data, setData] = useState([
+    
+  ])
 
   // function for the data fetch
   
   const getData = async () =>{
+    
     try {
-      let response =  await fetch("https://api.nomics.com/v1/currencies?key=365ce03265409d09dc1747bf53efeef418417369&ids=BTC,ETH,XRP,LTC,USDT&attributes=id,name,logo_url,price");
+      let response =  await fetch("https://api.nomics.com/v1/currencies/ticker?key=365ce03265409d09dc1747bf53efeef418417369&ids=BTC,ETH,XRP,USDT,LTC&interval=1d,30d&convert=EUR&per-page=100&page=1",
+                                  );
       let my_data = await response.json()
       console.log(my_data)
       setData(my_data)

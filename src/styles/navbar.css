@@ -84,11 +84,17 @@ nav{
         left: 0vh;
         width: 100vw;
         height: 40vh;
-        display: none;
         display: flex;
         flex-direction: column !important;
         font-size: 15px;
         z-index: 2;
+    }
+    #mob{
+        display: none;
+    }
+    .ml{
+        position:relative;
+        left:30px;
     }
  }
 @media (max-width:375px){

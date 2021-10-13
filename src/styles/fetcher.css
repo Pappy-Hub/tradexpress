@@ -5,6 +5,9 @@
     display: flex;
     
 }
+.img_loading{
+    display: none;
+}
 .crypto-div{
     width: 20vw;
     font-weight: bold;
@@ -40,9 +43,13 @@
 @media (max-width:425px)  { 
     .fetcher{
         flex-direction: column;
-        height: 73vh;
+        height: 75vh;
     }
     .crypto-div{
         width: 100vw;
+    }
+    .img_loading{
+        display: block;
+        height: 79vh;
     }
  }
